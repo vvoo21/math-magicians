@@ -58,7 +58,7 @@ To get a local copy up and running, follow these steps.
 - Just run `npm i` on the root of the project and you're good to go. All of the necesary packages will be installed for you!
 
 ### Run tests
-- Run `npm run start` to se a live version of the project on your browser
+- Run `npm start` to se a live version of the project on your browser
 - Run `npx hint .` to get Webhint going, a linter for HTML
 - Run `npx stylelint --fix "**/*.{css,scss}"` to get Stylelint going, a linter for CSS
 - Run `npx eslint --fix .` to get ESLint going, a linter for JS
