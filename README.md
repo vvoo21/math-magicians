@@ -28,7 +28,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-> **Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and Read a random math-related quote.
+**Math magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,8 +38,6 @@
 - Gitflow
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://)
 
@@ -95,8 +93,6 @@ Give a ⭐️ if you like this project!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 - I would like to thank the Microverse program!
 - I would like to thank anyone whose code was used!
