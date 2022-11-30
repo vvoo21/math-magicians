@@ -6,11 +6,12 @@
   --links-hover: hsl(62, 51%, 70%);
   --light: hsl(0, 0%, 99%);
   --footer: hsl(39, 41%, 52%);
+
   /* calculator */
   --bg-calculator: hsl(252, 5%, 19%);
-  --buttons: linear-gradient(0deg, rgba(96,95,96,1) 0%, rgba(69,67,69,1) 100%);
+  --buttons: linear-gradient(0deg, rgba(96, 95, 96, 1) 0%, rgba(69, 67, 69, 1) 100%);
   --buttons-up: hsl(300, 2%, 76%);
-  --buttons-right-side: linear-gradient(0deg, rgba(236,133,23,1) 0%, rgba(224,104,3,1) 100%);
+  --buttons-right-side: linear-gradient(0deg, rgba(236, 133, 23, 1) 0%, rgba(224, 104, 3, 1) 100%);
   --opacity: 0.5;
 }
 
