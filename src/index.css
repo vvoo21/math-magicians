@@ -2,7 +2,7 @@
 
 :root {
   --primary: hsl(252, 5%, 19%);
-  --secondary: hsl(183, 13%, 31%);
+  --secondary: hsl(180, 7%, 69%);
   --links-hover: hsl(62, 51%, 70%);
   --light: hsl(0, 0%, 99%);
   --footer: hsl(39, 41%, 52%);
@@ -10,7 +10,7 @@
   /* calculator */
   --bg-calculator: hsl(252, 5%, 19%);
   --buttons: linear-gradient(0deg, rgba(96, 95, 96, 1) 0%, rgba(69, 67, 69, 1) 100%);
-  --buttons-up: hsl(300, 2%, 76%);
+  --buttons-up: hsl(300, 1%, 69%);
   --buttons-right-side: linear-gradient(0deg, rgba(236, 133, 23, 1) 0%, rgba(224, 104, 3, 1) 100%);
   --opacity: 0.5;
 }
@@ -19,7 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body,
@@ -30,10 +30,7 @@ body,
 
 section {
   padding: 2rem;
-  background: url(../public/bg-section.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: var(--bg-calculator);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,31 +42,27 @@ section {
 .calculator-title {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--primary);
+  color: var(--light);
 }
 
 .calculator {
-  background-color: var(--bg-calculator);
+  background-color: var(--light);
   width: 100%;
-  max-width: 350px;
-  border-radius: 16px;
-  padding: 2rem 1rem;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
 }
 
 .calculator-display {
   width: 100%;
-  height: 100px;
-  background-color: var(--primary);
+  height: 20%;
+  background-color: var(--buttons-up);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  color: var(--light);
+  color: var(--primary);
   font-size: 1.5rem;
   font-weight: 700;
-  border-radius: 10px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -78,21 +71,20 @@ section {
 
 .calculator-keys {
   width: 100%;
+  height: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  gap: 1rem;
 }
 
 .btn {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   padding: 1rem;
-  border: none;
-  background: var(--buttons);
+  border: 1px solid var(--secondary);
+  background: var(--light);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  color: var(--light);
+  color: var(--primary);
   font-size: 1.5rem;
   font-weight: 700;
   display: flex;
@@ -102,20 +94,11 @@ section {
   transition: all 0.3s ease;
 }
 
-.btn:hover {
-  opacity: var(--opacity);
-}
-
-.btn-up {
-  background: var(--buttons-up);
-  color: var(--primary);
-}
-
 .btn-orange {
   background: var(--buttons-right-side);
+  border: 1px solid var(--light);
 }
 
 .btn-zero {
   grid-column: 1 / span 2;
-  border-radius: 30px;
 }
