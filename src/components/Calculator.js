@@ -16,8 +16,8 @@ function Calculator() {
   }
 
   return (
-    <section className="calculator-section">
-      <h1 className="calculator-title">Calculator App</h1>
+    <section className="calculator-container">
+      <h2 className="calculator-title">Calculator App</h2>
       <div className="calculator">
         <div className="calculator-display">
           <p>{next || total}</p>
