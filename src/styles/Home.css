@@ -1,0 +1,23 @@
+.home-container {
+  background-image: url('../images/home-bg.png');
+  flex-direction: column;
+}
+
+.home-container div {
+  max-width: 50%;
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.home-title {
+  color: var(--white);
+}
+
+.home-description {
+  color: var(--white);
+  font-size: 1.2rem;
+  text-align: justify;
+  max-width: 650px;
+}

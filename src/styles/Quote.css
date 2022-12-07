@@ -1,0 +1,21 @@
+.quote-container {
+  background-image: url('../images/calculator-bg.png');
+}
+
+.quote-container div {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.quote-author {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--black);
+}
