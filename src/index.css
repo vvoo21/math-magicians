@@ -45,8 +45,8 @@ section {
   background-size: cover;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 4rem;
   font-weight: 700;
 }
-

@@ -1,5 +1,5 @@
 .quote-container {
-  background-image: url('../images/calculator-bg.png'); 
+  background-image: url('../images/calculator-bg.png');
 }
 
 .quote-container div {
@@ -14,7 +14,7 @@
   gap: 2rem;
 }
 
-.quote-author{ 
+.quote-author {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--black);
